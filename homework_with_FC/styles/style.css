@@ -1,0 +1,93 @@
+
+
+body {
+    margin: 0;
+}
+
+.img {
+	width: 150px;
+	height: auto;
+}
+
+#headerMenu {
+	margin-top: 25px;
+	height: 60px;
+	z-index: 10;
+}
+
+nav ul {
+	font-weight: bold;
+}
+
+nav li a {
+	color: #a5227b !important;
+	letter-spacing: .94px;
+}
+
+.navbar-toggler {
+    background-color: #ecad10 !important;
+}
+	
+@media only screen and (max-width: 767px) {
+	.navbar {
+		float: left !important;
+		margin-left: 360px !important;
+	}
+	nav ul {
+		background-color: #ecad10 !important;
+		border-radius: 4px !important;
+		font-size: 0.9em !important;
+	}
+	nav ul:hover {
+		border-radius: 4px !important;
+	}
+	nav ul li {
+		padding: 0 4px !important;
+	}
+	nav ul li:hover {
+		background-color: #ffc107 !important;
+		border-radius: 4px !important;
+	}
+}
+
+@media only screen and (max-width: 575px) {
+	.navbar {
+		float: left !important;
+		margin-left: 280px !important;
+	}
+}
+
+@media only screen and (max-width: 520px) {
+	.navbar {
+		float: left !important;
+		margin-left: 220px !important;
+	}
+}
+
+@media only screen and (max-width: 468px) {
+	.navbar {
+		float: left !important;
+		margin-left: 170px !important;
+	}
+}
+
+@media only screen and (max-width: 376px) {
+	.navbar {
+		float: left !important;
+		margin-left: 120px !important;
+	}
+}
+
+#about h5 {
+	color: #a5227b;
+}
+
+#about a {
+	text-decoration: none;
+}
+
+#about p {
+	margin-bottom: 10px;
+}
+
+

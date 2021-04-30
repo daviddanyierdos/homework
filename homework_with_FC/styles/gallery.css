@@ -1,0 +1,18 @@
+
+#gallery {
+	margin-top: -100px !important;
+}
+
+.image { 
+	display: inline-block;
+}
+
+.image img {
+	width: 200px;
+}
+
+#send {
+	border: none !important;
+    padding: 3px 10px !important;
+	margin-top: 15px !important;
+}
