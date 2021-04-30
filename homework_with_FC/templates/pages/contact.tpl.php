@@ -2,6 +2,7 @@
 <div class="container" id="contact">
 <div class="row">
 <div class="col-12">
+<h2 style="margin-bottom:45px">Contact us</h2>
 <form name="contact" action="?page=form data" onsubmit="return check();" method="post">
 	<div>
 		<label class="label">Name (required):</label> <input id="name" type="text" name="name" pattern="[A-Z,a-z, ]{8,30}" required placeholder="min 8, max 30 character"><br>

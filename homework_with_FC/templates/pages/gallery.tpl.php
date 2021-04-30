@@ -3,7 +3,7 @@
 <div class="row" style="margin:0 auto">
 <div class="col-12">
 
-<h1>Galéria</h1>
+<h1 style="margin-bottom:25px">Gallery</h1>
 <?php
 arsort($gallery);
 foreach($gallery as $file => $date)
@@ -13,7 +13,7 @@ foreach($gallery as $file => $date)
 	<a href="<?php echo $FOLDER.$file ?>">
 		<img src="<?php echo $FOLDER.$file ?>">
 	</a>            
-	<p>Name:  <?php echo $file; ?></p>
+	<p>Name:  <?php echo strtoupper($file); ?></p>
 	<p>Date:  <?php echo date($DATEFORMAT, $date); ?></p>
 </div>
 <?php
@@ -21,8 +21,8 @@ foreach($gallery as $file => $date)
 ?>
 
 <div>
-	<h1 style="margin-top:10px">Upload to Gallery:</h1>
-	<form  action = "?oldal=upload" method = "post" enctype="multipart/form-data">
+	<h1 style="margin-top:10px;margin-bottom:25px">Upload to Gallery:</h1>
+	<form  action = "?page=upload" method = "post" enctype="multipart/form-data">
 		<label style="display:block">First: <input type="file" name="first" required></label>
 		<label style="display:block">Second: <input type="file" name="second"></label>
 		<label style="display:block">Third: <input type="file" name="third"></label>        

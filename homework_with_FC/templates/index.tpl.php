@@ -21,7 +21,7 @@
 <header class="container-fluid">
 <div class="row">
 <div class="col-3">
-<img src="./images/<?=$header['source']?>" alt="<?=$header['alt']?>">
+<img src="./images/<?=$header['source']?>" alt="<?=$header['alt']?>" class="img">
 </div>
 <div class="col-9" id="headerMenu">
 <nav class="navbar navbar-expand-md navbar-dark" style="float:right">
@@ -51,31 +51,32 @@
 <div class="row" style="margin-bottom:50px" id="about">
 <div class="col-6 col-md-2">
 <h5><?= $contacts['about']?></h5>
-<p><a href="#"><?= $contacts['image']?></a></p>
-<p><a href="#"><?= $contacts['image']?></a></p>
-<p><a href="#"><?= $contacts['image']?></a></p>
-<p><a href="#"><?= $contacts['image']?></a></p>
-<p><a href="#"><?= $contacts['image']?></a></p>
-<p><a href="#"><?= $contacts['image']?></a></p>
+<p><a href="#"><?= $contacts['about1']?></a></p>
+<p><a href="#"><?= $contacts['about2']?></a></p>
+<p><a href="#"><?= $contacts['about3']?></a></p>
+<p><a href="#"><?= $contacts['about4']?></a></p>
+<p><a href="#"><?= $contacts['about5']?></a></p>
+<p><a href="#"><?= $contacts['about6']?></a></p>
 </div>
 <div class="col-6 col-md-2">
 <h5><?= $contacts['mission']?></h5>
-<p><a href="#"><?= $contacts['image']?></a></p>
-<p><a href="#"><?= $contacts['image']?></a></p>
-<p><a href="#"><?= $contacts['image']?></a></p>
-<p><a href="#"><?= $contacts['image']?></a></p>
+<p><a href="#"><?= $contacts['mission1']?></a></p>
+<p><a href="#"><?= $contacts['mission2']?></a></p>
+<p><a href="#"><?= $contacts['mission3']?></a></p>
+<p><a href="#"><?= $contacts['mission4']?></a></p>
+<p><a href="#"><?= $contacts['mission5']?></a></p>
 </div>
 <div class="col-6 col-md-2">
 <h5><?= $contacts['resources']?></h5>
-<p><a href="#"><?= $contacts['image']?></a></p>
-<p><a href="#"><?= $contacts['image']?></a></p>
-<p><a href="#"><?= $contacts['image']?></a></p>
+<p><a href="#"><?= $contacts['resources1']?></a></p>
+<p><a href="#"><?= $contacts['resources2']?></a></p>
+<p><a href="#"><?= $contacts['resources3']?></a></p>
 </div>
 <div class="col-6 col-md-2">
 <h5><?= $contacts['team']?></h5>
-<p><a href="#"><?= $contacts['image']?></a></p>
-<p><a href="#"><?= $contacts['image']?></a></p>
-<p><a href="#"><?= $contacts['image']?></a></p>
+<p><a href="#"><?= $contacts['team1']?></a></p>
+<p><a href="#"><?= $contacts['team2']?></a></p>
+<p><a href="#"><?= $contacts['team3']?></a></p>
 </div>
 <div class="col-12 col-md-4" styles="height:186px">
 <a href="#" style="cursor:pointer;text-decoration:none"><img src="./images/<?= $contacts['image']?>" class="img-fluid"></a>

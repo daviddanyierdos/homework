@@ -3,17 +3,12 @@
 <div class="row">
 <div class="col-12">
 
-<?php if(isset($message)) { ?>
-	<h1><?= $message ?></h1>
-	<?php if($again) { ?>
-		<a href="?oldal=contact" style="text-decoration:none">Try it again!</a>
-	<?php } ?>
-<?php } ?>
+<h2 style="margin-bottom:45px">Data about the e-mail what you have just sent</h2>
 
 <?php
 if (!empty($data))
 {
-	foreach($adat as $u)
+	foreach($data as $u)
 		echo "<h4>$u</h4>";
 }
 ?>

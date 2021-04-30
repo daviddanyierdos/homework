@@ -1,6 +1,7 @@
 
 #gallery {
-	margin-top: -100px !important;
+	margin-top: 50px !important;
+	margin-bottom: 100px !important;
 }
 
 .image { 
@@ -14,5 +15,5 @@
 #send {
 	border: none !important;
     padding: 3px 10px !important;
-	margin-top: 15px !important;
+	margin-top: 25px !important;
 }
