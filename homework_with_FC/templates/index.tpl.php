@@ -21,7 +21,7 @@
 <header class="container-fluid">
 <div class="row">
 <div class="col-3">
-<img src="./images/<?=$header['source']?>" alt="<?=$header['alt']?>" class="img">
+	<a href="#"><img src="./images/<?=$header['source']?>" alt="<?=$header['alt']?>" class="img"></a>
 </div>
 <div class="col-9" id="headerMenu">
 <nav class="navbar navbar-expand-md navbar-dark" style="float:right">
