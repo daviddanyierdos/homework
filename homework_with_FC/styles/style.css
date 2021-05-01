@@ -9,6 +9,11 @@ body {
 	height: auto;
 }
 
+.active {
+	color: #f4a216 !important;
+	letter-spacing: .94px !important;
+}
+
 #headerMenu {
 	margin-top: 25px;
 	height: 60px;
